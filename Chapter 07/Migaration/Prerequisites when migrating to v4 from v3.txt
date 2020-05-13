@@ -1,0 +1,107 @@
+1) Mode
+
+// webpack.config.js
+
+module.exports = {
+  // ...
++  mode: 'production',
+}
+
+------------------------------------------
+
+2) Deprecated/Removed plugins
+These plugins can be removed from configuration as they are default in production mode:
+
+// webpack.config.js
+
+module.exports = {
+  // ...
+  plugins: [
+-    new NoEmitOnErrorsPlugin(),
+-    new ModuleConcatenationPlugin(),
+-    new DefinePlugin({ "process.env.NODE_ENV": JSON.stringify("production") })
+-    new UglifyJsPlugin()
+  ],
+}
+
+
+These plugins are default in development mode
+
+// webpack.config.js
+
+module.exports = {
+  // ...
+  plugins: [
+-    new NamedModulesPlugin()
+  ],
+}
+
+
+These plugins were deprecated and are now removed:
+
+// webpack.config.js
+
+module.exports = {
+  // ...
+  plugins: [
+-    new NoErrorsPlugin(),
+-    new NewWatchingPlugin()
+  ],
+}
+
+----------------------------------------------------------
+
+
+3) import() and CommonJS
+When using import() to load non-ESM the result has changed in webpack 4. Now you need to access the default property to get the value of module.exports.
+
+// non-esm.js
+
+module.exports = {
+  sayHello: () => {
+    console.log('hello world');
+  }
+};
+
+
+// example.js
+
+function sayHello() {
+  import('./non-esm.js').then(module => {
+    module.default.sayHello();
+  });
+}
+
+
+-------------------------------------------------------------------------
+
+4) When using a custom loader to transform .json files you now need to change the module type:
+
+// webpack.config.js
+
+module.exports = {
+  // ...
+  rules: [
+    {
+      test: /config\.json$/,
+      loader: 'special-loader',
++     type: 'javascript/auto',
+      options: {...}
+    }
+  ]
+};
+
+
+When still using the json-loader, it can be removed:
+
+//webpack.config.js
+
+module.exports = {
+  // ...
+  rules: [
+    {
+-     test: /\.json$/,
+-     loader: 'json-loader'
+    }
+  ]
+};

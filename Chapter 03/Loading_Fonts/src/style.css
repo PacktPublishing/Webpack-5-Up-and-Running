@@ -1,0 +1,13 @@
+ @font-face {
+    font-family: 'SampleFont';
+    src:  url('./open-sans-v17-latin-regular.woff') format('woff'),
+          url('./open-sans-v17-latin-regular.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .hello {
+    color: blue;
+    font-family: 'SampleFont';
+    background: url('./icon.png');
+  }

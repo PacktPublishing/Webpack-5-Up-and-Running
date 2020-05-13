@@ -1,0 +1,1 @@
+new WebpackDevServer(compiler, options)

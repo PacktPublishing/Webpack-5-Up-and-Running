@@ -1,0 +1,1 @@
+require("imports-loader?$=jquery!./example.js");
