@@ -24,7 +24,7 @@ module.exports = {
   ]
 }
 
---------------------------------------------------------
+
 
 // Setting up build orchestration
 
@@ -37,7 +37,7 @@ module.exports = {
 </body>
 
 
------------------------------------------------------------------
+
 
 // Consuming code from a remote
 
@@ -57,7 +57,6 @@ const Page1 = () => {
 export default Page1;
 
 
------------------------------------------------------------------------------
 
 // And the router looks pretty standard:
 

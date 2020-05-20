@@ -23,7 +23,6 @@ module.exports = {
 };
 
 
----------------------------------------------------------------
 
 // Consumption:
 
@@ -43,7 +42,6 @@ const App = () => {
 
 export default App; 
 
------------------------------------------------------------------
 
 
 // Here's what the default page, that uses Dialog, looks like:
