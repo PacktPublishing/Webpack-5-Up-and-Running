@@ -3,7 +3,7 @@ module.exports = {
     rules: [
       {
         test: /\.ext$/,
-        use: ['cache-loader', ...loaders],
+        use: ['cache-loader', 'babel-loader'],
         include: path.resolve('src'),
       },
     ],
