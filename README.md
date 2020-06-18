@@ -38,7 +38,7 @@ The book is for web developers looking to get started with dependency management
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | Node.js with npm                     | Supports multiple OS               |
+| 1 to 8       | Node.js with npm                     | Supports multiple OS               |
 
 ### Related products <Other books you may enjoy>
 * Clean Code in JavaScript [[Packt]](https://www.packtpub.com/web-development/clean-code-in-javascript?utm_source=github&utm_medium=repository&utm_campaign=9781789957648) [[Amazon]](https://www.amazon.com/dp/1789957648)
