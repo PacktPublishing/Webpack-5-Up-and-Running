@@ -34,9 +34,6 @@ if (test expression)
 **Following is what you need for this book:**
 The book is for web developers looking to get started with dependency management in their web project by learning Webpack. Working knowledge of JavaScript is assumed.
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
-
-
 ### Related products <Other books you may enjoy>
 * Clean Code in JavaScript [[Packt]](https://www.packtpub.com/web-development/clean-code-in-javascript?utm_source=github&utm_medium=repository&utm_campaign=9781789957648) [[Amazon]](https://www.amazon.com/dp/1789957648)
 
@@ -44,7 +41,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Tom Owens**
-Tom Owens is a seasoned web developer with over 11 years of industry experience. He graduated from Liverpool John Moores University with a BA (Hons), an FdA, and an MSc. His career began as a freelance web designer, granting him experience around numerous new media fields, including game and frontend development. He moved into internet entrepreneurship, having garnered a great deal of knowledge in offering consultancy to highly successful entrepreneurs. He was later offered a role as Lecturer in Web Development for a private institution called SAE, who offer degrees to BSc (Hons) and BA (Hons) students. Tom has an ongoing passion for coaching and mentoring, which he intends to bring to the fore in this book.
+is a seasoned web developer with over 11 years of industry experience. He graduated from Liverpool John Moores University with a BA (Hons), an FdA, and an MSc. His career began as a freelance web designer, granting him experience around numerous new media fields, including game and frontend development. He moved into internet entrepreneurship, having garnered a great deal of knowledge in offering consultancy to highly successful entrepreneurs. He was later offered a role as Lecturer in Web Development for a private institution called SAE, who offer degrees to BSc (Hons) and BA (Hons) students. Tom has an ongoing passion for coaching and mentoring, which he intends to bring to the fore in this book.
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
